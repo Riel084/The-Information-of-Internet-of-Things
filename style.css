@@ -467,3 +467,7 @@ p{
     box-shadow: 0 0 20px 2px rgba(0,0,0, .9);
     z-index: 2;
 }
+
+.Email-Me{
+    text-decoration: none;
+    color: Blue;
