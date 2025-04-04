@@ -334,7 +334,7 @@ p{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgb(41, 40, 40)), url(Images\/aboutus.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgb(41, 40, 40)), url(Images/\aboutus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
