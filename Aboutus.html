@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Of Things</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="icon" type="image/jpg" href="/image assets/iot3.png">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/image assets/iot3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Aboutus.html">ABOUT</a></li>
+                    <li><a href="Contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>About Us</h1>
+</div>
+    </section>
+
+    <section class="about-us">
+        <div class="roww">
+            <div class="about-col">
+                <img src="/image assets/aboutus.jpg">
+            </div>
+            <div class="about-col">
+                <h1>We are the students from Gateway's Institute of Science and Technologies</h1>
+                <p>At Gateway's Institute of Science and Technologies,<br> we are committed to empowering the next generation of tech enthusiasts by providing quality education in Information and Communication Technology (ICT).<br> Our initiative focuses on delivering comprehensive knowledge about the advantages of the Internet of Things (IoT) to Grade 12 ICT students, helping them understand its impact on modern technology and future career opportunities. Through interactive learning sessions, real-world applications, and hands-on experiences, we strive to bridge the gap between theoretical knowledge and practical implementation. Our goal is to equip students with the skills and insights needed to navigate the evolving digital landscape, ensuring they stay ahead in the fast-growing world of IoT.</p>
+            </div>  
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-solid fa-envelope"></i>
+        </div>
+        <p>Made with <i class="fa fa-regular fa-heart"></i> by Grade 12-6 ICT Students</p>
+    </section>
+
+
+    <!--------javascript for toggle menu-------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
